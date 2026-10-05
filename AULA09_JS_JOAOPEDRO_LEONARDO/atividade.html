@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores de Comparação</title>
+    <script>
+
+        function comparar(){
+
+            var n1 = parseFloat(document.getElementById('n1').value);
+            var n2 = parseFloat(document.getElementById('n2').value);
+
+            if(n1==n2){
+                alert("Verdadeiro")
+            }else{
+                alert("Falso");
+            }
+            //console.log(n1+n2);
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <input type="text" id="n1" placeholder="Digite um número"></input>==
+        <input type="text" id="n2" placeholder="Digite um número"></input>
+        <button onclick="comparar()">Comparar</button>
+    </div>
+        <div>
+        <input type="text" id="n1" placeholder="Digite um número"></input>!=
+        <input type="text" id="n2" placeholder="Digite um número"></input>
+        <button onclick="comparar()">Comparar</button>
+    </div>
+        <div>
+        <input type="text" id="n1" placeholder="Digite um número"></input>>
+        <input type="text" id="n2" placeholder="Digite um número"></input>
+        <button onclick="comparar()">Comparar</button>
+    </div>
+        <div>
+            <input type="text" id="n1" placeholder="Digite um número"></input>>=
+        <input type="text" id="n2" placeholder="Digite um número"></input>
+        <button onclick="comparar()">Comparar</button>
+    </div>
+        <div>
+            <input type="text" id="n1" placeholder="Digite um número"></input><
+        <input type="text" id="n2" placeholder="Digite um número"></input>
+        <button onclick="comparar()">Comparar</button>
+
+    </div>
+       <div>
+        <input type="text" id="n1" placeholder="Digite um número"></input><=
+        <input type="text" id="n2" placeholder="Digite um número"></input>
+        <button onclick="comparar()">Comparar</button>
+
+    </div>
+</body>
+</html>
